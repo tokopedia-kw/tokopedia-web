@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "rifkifauzi",
+    "password": null,
+    "database": "demo_api_glasgow",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
