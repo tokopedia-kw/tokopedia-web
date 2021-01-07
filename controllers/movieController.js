@@ -1,7 +1,7 @@
 const axios = require('axios')
 
 const getPopularMovie = (req, res) => {
-  let popularMovieApiUrl = "https://api.themoviedb.org/3/movie/tidak_popular"
+  let popularMovieApiUrl = "https://api.themoviedb.org/3/movie/popular_sekali"
 
   axios.get(popularMovieApiUrl, {
     headers: {
