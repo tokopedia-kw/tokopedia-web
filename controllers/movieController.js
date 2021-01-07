@@ -5,7 +5,7 @@ const getPopularMovie = (req, res) => {
 
   axios.get(popularMovieApiUrl, {
     headers: {
-      Authorization: "Bearer " + process.env.MOVIE_DB_API_KEY
+      Authorization: "Bearer " + process.env.MOVIE_DB_API
     }
   })
     .then(response => {
